@@ -14,7 +14,7 @@ function checkPassword() {
 
     } else {
 
-        alert("❌ That's not the correct password. Hint: Think of the special date ❤️");
+        alert("❌ That's not the correct password. Hint: Think of your birthday date ❤️");
 
     }
 
