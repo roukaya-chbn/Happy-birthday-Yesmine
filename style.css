@@ -228,3 +228,239 @@ button:hover{
     }
 
 }
+/* 🎂 FINAL BIRTHDAY PAGE */
+
+.final-page {
+
+    margin: 0;
+
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            135deg,
+            #ffd6ec,
+            #eadcff,
+            #ffe5f3
+        );
+
+    text-align: center;
+
+    color: #6b3978;
+
+    padding: 40px 20px;
+
+}
+
+
+.final-container {
+
+    max-width: 800px;
+
+    margin: auto;
+
+}
+
+
+.birthday-title {
+
+    font-size: 48px;
+
+    margin-bottom: 10px;
+
+    color: #a84f8c;
+
+}
+
+
+.subtitle {
+
+    font-size: 22px;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* 🎂 CAKE */
+
+.cake {
+
+    position: relative;
+
+    width: 330px;
+
+    margin: 40px auto;
+
+}
+
+
+.cake-top {
+
+    font-size: 55px;
+
+    background: #ffd0e4;
+
+    border-radius: 50% 50% 20px 20px;
+
+    padding: 20px;
+
+    box-shadow:
+        0 10px 20px
+        rgba(100, 50, 120, 0.2);
+
+}
+
+
+.cake-body {
+
+    font-size: 170px;
+
+    line-height: 1;
+
+    margin-top: -10px;
+
+}
+
+
+.number {
+
+    position: absolute;
+
+    top: 55px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    font-size: 70px;
+
+    font-weight: bold;
+
+    color: #c56a9c;
+
+    text-shadow:
+        2px 2px 0 white,
+        4px 4px 8px rgba(100,50,120,0.2);
+
+}
+
+
+.candle {
+
+    position: absolute;
+
+    top: -20px;
+
+    font-size: 40px;
+
+}
+
+
+.candle1 {
+
+    left: 90px;
+
+}
+
+
+.candle2 {
+
+    right: 90px;
+
+}
+
+
+/* 💌 WISH CARD */
+
+.wish-card {
+
+    background: rgba(255,255,255,0.85);
+
+    max-width: 650px;
+
+    margin: 40px auto;
+
+    padding: 30px;
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 10px 30px
+        rgba(100,50,120,0.18);
+
+}
+
+
+.wish-card h2 {
+
+    color: #a84f8c;
+
+    font-size: 28px;
+
+}
+
+
+.wish-card p {
+
+    font-size: 21px;
+
+    line-height: 1.8;
+
+}
+
+
+.ending {
+
+    font-size: 20px;
+
+    line-height: 1.8;
+
+}
+
+
+.hearts {
+
+    font-size: 30px;
+
+    margin: 25px;
+
+}
+
+
+/* 📱 PHONE */
+
+@media (max-width: 600px) {
+
+    .birthday-title {
+
+        font-size: 36px;
+
+    }
+
+    .cake {
+
+        width: 280px;
+
+    }
+
+    .cake-body {
+
+        font-size: 140px;
+
+    }
+
+    .number {
+
+        font-size: 60px;
+
+    }
+
+    .wish-card p {
+
+        font-size: 18px;
+
+    }
+
+}
+
